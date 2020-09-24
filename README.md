@@ -1,3 +1,4 @@
+
 esp8266 rtos sdk udpserver with ap mode 
 
 
@@ -11,4 +12,4 @@ or run python2 script via
 
 python2 udpclient.py
 
-dont forget run make menuconfig to configuration
+dont forget run make menuconfig to configuration and change uart baudrate from -component config > common esp related > uart baudrate to 9600
